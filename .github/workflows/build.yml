@@ -28,7 +28,7 @@ jobs:
           FEEDNAME: mihomo
           PACKAGES: luci-app-mihomo
           NO_REFRESH_CHECK: true
-          INDEX: 1
+          INDEX: 0
 
       - name: Upload
         uses: actions/upload-artifact@v4
